@@ -1,0 +1,11 @@
+{
+  "main": {
+    "prefix": "fmain",
+    "body": [
+      "func main() {",
+      "$1\tfmt.Println(\"hello from go\")",
+      "}"
+    ],
+    "description": "main function"
+  },
+}

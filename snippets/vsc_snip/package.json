@@ -1,0 +1,25 @@
+{
+  "name": "my-snippets",
+  "engine": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./lua.json"
+      },
+      {
+        "language": "go",
+        "path": "./go.json"
+      },
+      {
+        "language": [
+          "go",
+          "javascript"
+        ],
+        "path": "./common-headers.json"
+      }
+    ]
+  }
+}
