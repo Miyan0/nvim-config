@@ -53,6 +53,20 @@ return {
                         dismiss = "<C-]>",
                     },
                 },
+
+                filetypes = {
+                    markdown = true,
+                    help = true,
+                    lua = true,
+                    vim = true,
+                    typescript = true,
+                    typescriptreact = true,
+                    javascript = true,
+                    javascriptreact = true,
+                    html = true,
+                    css = true,
+                    go = true,
+                },
             })
 
             -- hide copilot suggestions when cmp menu is open
